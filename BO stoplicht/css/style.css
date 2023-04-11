@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(228, 232, 236) 100%);
+}
+
+.banner {
+  width: 100%;
+  height: 18rem;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 49.45%;
+  transform: translate(-50%);
+  width: 80.25rem;
+  height: 0.4rem;
+  background: #19aeaa;
+}
+.banner__logo {
+  padding-left: 3.6rem;
+  padding-top: 1.3rem;
+}
+.container {
+  width: 100%;
+  height: auto;
+  max-height: 100rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea:is(:focus, :valid) {
+  border-width: 0.2rem;
+  padding: 1.4rem;
+  border-color: #4671EA;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0rem;
+}
+
+textarea {
+  width: 60rem;
+  height: 20rem;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  margin: 2rem;
+  outline: none;
+  resize: none;
+  max-height: 33rem;
+}
+
+.textarea-1 {
+  border-color: red;
+}
+
+.textarea-2 {
+  border-color: orange;
+}
+
+.textarea-3 {
+  border-color: #ffef00;
+}
+
+.textarea-4 {
+  border-color: green;
+}
+
+.textarea-5 {
+  border-color: red;
+}
+
+.textarea-6 {
+  border-color: orange;
+}
+
+.textarea-7 {
+  border-color: #ffef00;
+}
+
+.textarea-8 {
+  border-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
